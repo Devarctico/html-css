@@ -1,0 +1,34 @@
+body {
+    background: lightgrey;
+}
+
+h1 {
+    color: white;
+    background: hsl(214, 60%, 53%);
+}
+
+h2 {
+    color: white;
+    background: linear-gradient(40deg, #2F1847 20%, #95E06C 15%, #68B684, #562e81 16%, #1C1018 30%);
+}
+
+
+/* h2:nth-of-type(1) {
+    background: lightseagreen;
+}
+
+h2:nth-of-type(2) {
+    background: #20b2aa;
+}
+
+h2:nth-of-type(3) {
+    background: rgb(32, 178, 170);
+}
+
+h2:nth-of-type(4) {
+    background: hsl(177, 70%, 41%);
+}
+
+h2:nth-of-type(5) {
+    background: hsl(177, 50%, 41%);
+} */

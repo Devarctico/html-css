@@ -1,0 +1,27 @@
+body {
+    background: #2F1847;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 900px;
+    height: 780px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px 5px white;
+}
+
+h1 {
+    text-align: center;
+    color: #C62E65;
+    padding: 10px;
+}
+
+h2 {
+    color: #624763;
+}
+
+p {
+    text-align: justify;
+}

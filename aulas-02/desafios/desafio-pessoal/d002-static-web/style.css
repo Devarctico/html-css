@@ -1,0 +1,266 @@
+@charset "UTF-8";
+:root {
+    --cor0: #9a8c98;
+    --cor1: #4a4e69;
+    --cor2: #22223b;
+    --cor3: rgba(34, 34, 59, 0.459);
+    --corc0: #f2e9e4;
+    --corc1: #c9ada7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 25px;
+    margin-bottom: 25px;
+}
+
+.box-wrap {
+    background-color: rgba(0, 0, 0, 0.164);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.150);
+    padding-bottom: 5px;
+    height: 37px;
+}
+
+header h1 {
+    width: 170px;
+    height: 25px;
+    display: inline-block;
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.705);
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.7em;
+    margin-top: 6px;
+    margin-left: 155px;
+}
+
+header h1::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    transition-duration: .3s;
+    background: rgba(0, 0, 0, 0.705);
+}
+
+header h1:hover::after {
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    left: 32%;
+    bottom: 22.5px;
+    /* background: red; */
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    /* display: inline-block; */
+    /* padding: 0px 8px; */
+    float: right;
+}
+
+nav ul li {
+    float: right;
+    padding-left: 10px;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.527);
+    font-family: monospace;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.527);
+    width: 0%;
+    height: 2px;
+    transition-duration: .3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+aside {
+    background: var(--cor2);
+    position: fixed;
+    width: 155px;
+    height: 632px;
+    top: 0;
+    text-align: center;
+}
+
+aside span {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+aside span a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+aside span a:hover {
+    padding: 3px;
+    background: rgba(255, 255, 255, 0.151);
+    border-radius: 5px;
+}
+
+aside ul {
+    text-decoration: none;
+}
+
+aside ul li {
+    color: white;
+    padding: 5px 0px;
+    text-align: left;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+aside ul li:hover {
+    background: var(--cor1);
+}
+
+.small-li {
+    color: #22223b;
+    font-size: .6em;
+}
+
+.small-li a:hover {
+    color: white;
+}
+
+aside ul li a {
+    margin-left: 10px;
+    font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.507);
+    cursor: pointer;
+}
+
+aside ul li a:hover {
+    color: white;
+}
+
+.wrapper {
+    width: 620px;
+    height: 1150px;
+    margin-left: 25%;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+.container {
+    font-size: .9em;
+}
+
+#titulo-principal {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.container h3 {
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.container ol li>a {
+    color: #6464b4;
+    text-decoration: none;
+}
+
+.container ol li>a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.container ul li>a {
+    text-decoration: none;
+    color: #6464b4;
+}
+
+.container ul li>a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.container ul {
+    list-style-position: inside;
+}
+
+.container ol {
+    list-style-position: inside;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 10px;
+    left: 17.2%;
+    bottom: -970px;
+    width: 80.6%;
+    height: 20px;
+    position: absolute;
+}
+
+footer>p {
+    color: rgba(0, 0, 0, 0.705);
+    text-align: center;
+    font-family: monospace;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.up {
+    position: fixed;
+    left: 96%;
+    top: 59%;
+}
+
+.up a {
+    display: block;
+    text-decoration: none;
+    width: 25px;
+}
+
+img {
+    width: 25px;
+}

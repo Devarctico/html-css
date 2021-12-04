@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupiong Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: lightgray;
+            margin: 0px;
+        }
+        
+        header {
+            background: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background: lightcoral;
+            padding: 3px;
+            box-shadow: 0px 3px 10px #0000005d;
+        }
+        
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        
+        nav>a:hover {
+            text-decoration: underline;
+        }
+        
+        article {
+            background: lightgray;
+        }
+        
+        article>aside {
+            background: rgb(100, 100, 100);
+        }
+        
+        #assuntos>p {
+            background: lightcoral;
+            text-align: center;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            width: 17%;
+            border-radius: 10px;
+        }
+        
+        #assuntos>p>span>a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        #assuntos>p>span>a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            background: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        
+        aside>p {
+            text-indent: 2px;
+            color: white;
+        }
+        
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: auto;
+            margin-top: 15px;
+            width: 15%;
+            border-radius: 10px;
+        }
+        
+        footer>p {
+            margin: 0px;
+        }
+        /*.bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background: white;
+            border-radius: 50%;
+        }*/
+    </style>
+</head>
+
+<body>
+    <!-- Box Level -->
+    <!-- <div></div> -->
+    <!-- Inline Level -->
+    <!-- <span></span> -->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p><span><a href="https://www.google.com" target="_blank">Esportes</a></span> <span><a href="https://www.google.com" target="_blank">Política</a></span> <span><a href="https://www.google.com" target="_blank">Tecnologia</a></span></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre Venezuela</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio repellendus rem. Explicabo aliquid laborum id numquam hic commodi esse soluta accusantium alias ea harum ex consectetur quia, est facere!</p>
+                <aside>
+                    <p>Artigo escrito por José Rio</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por VB.</p>
+    </footer>
+    <!-- <div class="bola"></div> -->
+</body>
+
+</html>
