@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+@font-face {
+    font-family: 'gabriela';
+    src: url(gabriela.woff) format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightgray;
+    font-family: sans-serif;
+}
+
+header h1 {
+    font: 5em 'Cabin Sketch';
+    text-transform: uppercase;
+    text-align: center;
+    color: hsl(233, 15%, 40%);
+    margin-top: 5px;
+}
+
+main {
+    margin: auto;
+    max-width: 1150px;
+}
+
+main h2 {
+    color: white;
+    font: bold 2.1em 'gabriela';
+    padding: 2px 0 0 3px;
+}
+
+.futbol {
+    border: 3px solid orangered;
+    border-radius: 0px 15px 15px 15px;
+}
+
+.futbol h2 {
+    background: orangered;
+}
+
+.futbol .datos {
+    background: rgba(255, 68, 0, 0.692);
+    padding: 5px 0 5px 10px;
+}
+
+.futbol .vida {
+    background: rgba(255, 68, 0, 0.292);
+    padding: 5px 0 5px 15px;
+}
+
+.literatura {
+    border: 3px solid magenta;
+    border-radius: 15px 0px 15px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.literatura h2 {
+    background: magenta;
+}
+
+.literatura .datos {
+    background: rgba(255, 0, 255, 0.492);
+    padding: 5px 0 5px 10px;
+}
+
+.literatura .vida {
+    background: rgba(255, 0, 255, 0.092);
+    padding: 5px 0 5px 15px;
+}

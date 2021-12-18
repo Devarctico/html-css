@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+}
+
+header h1 {
+    color: darkblue;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 1.05em;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+header .intro-msg {
+    color: darkslateblue;
+    background: rgba(71, 61, 139, 0.067);
+    font-weight: 600;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+main h2 {
+    color: white;
+    background: darkslateblue;
+    font-size: 2.5em;
+    clear: both;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+
+main p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+main strong {
+    font-style: italic;
+}
+
+.izquierda {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.centrar {
+    display: block;
+    margin: auto;
+}
+
+.derecha {
+    float: right;
+    margin-left: 10px;
+}
+
+footer p {
+    clear: both;
+    font-style: italic;
+    font-weight: 700;
+}

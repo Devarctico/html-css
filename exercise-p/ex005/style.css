@@ -1,0 +1,25 @@
+body {
+    background: wheat;
+}
+
+h1 {
+    font-size: 4em;
+    font-style: italic;
+    color: orange;
+}
+
+h2 {
+    font-size: 3em;
+    color: tomato;
+    font-style: italic;
+}
+
+details {
+    font-size: 4.5em;
+}
+
+p {
+    width: 65%;
+    margin: 10px 0 10px 0;
+    background: rgb(252, 200, 104);
+}
