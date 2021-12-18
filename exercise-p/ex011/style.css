@@ -34,7 +34,7 @@ main h2 {
 }
 
 .futbol {
-    border: 3px solid orangered;
+    border: 5px solid orangered;
     border-radius: 0px 15px 15px 15px;
 }
 
@@ -53,7 +53,7 @@ main h2 {
 }
 
 .literatura {
-    border: 3px solid magenta;
+    border: 5px solid magenta;
     border-radius: 15px 0px 15px 0px;
     margin-top: 10px;
     margin-bottom: 10px;
