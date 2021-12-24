@@ -1,7 +1,7 @@
 # html-css
  Curso HTML5 - CSS3
+ <strong>Devarctico</strong>
 
-Devartico here!
 
 Repositorio para aprender HTML5 - CSS3 - JavaScript de <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" rel="external">CursoEmVideo</a>.
 
