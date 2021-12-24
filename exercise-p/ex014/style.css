@@ -1,0 +1,51 @@
+body {
+    background: url("fondos/corazon-1.svg") repeat-y top left, url("fondos/corazon-2.svg") repeat-y right top;
+    background-size: 150px;
+    background-color: rgba(255, 182, 193, 0.315);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+div {
+    margin: auto;
+    max-width: 950px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.yellow {
+    color: white;
+    background-image: url(fondos/manchas.png);
+    background-repeat: repeat;
+}
+
+.pink {
+    color: yellow;
+    background: url(fondos/fuego.svg) no-repeat left bottom, url(fondos/fuego.svg) no-repeat right bottom, url(fondos/tallos.jpg) repeat;
+    background: 100px auto;
+}
+
+.blue-yellow {
+    color: red;
+    background: url(fondos/ojo.svg) center no-repeat, url(fondos/hexagonos.jpg) repeat;
+    background-size: contain auto;
+}
+
+.blue {
+    color: green;
+    background: url(fondos/caballo.svg) repeat-x bottom, url(fondos/estrellas.png) repeat;
+    background-size: 100px auto;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto 15px auto;
+    width: 400px;
+}

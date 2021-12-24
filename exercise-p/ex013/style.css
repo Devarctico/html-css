@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Tempe';
+    src: url("font/righteous.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'pronostic';
+    src: url('font/weathericons-regular-webfont.woff') format('woff');
+}
+
+h1 {
+    font: 2em 'Tempe';
+}
+
+p {
+    font-family: 'pronostic';
+    font-size: 1em;
+}

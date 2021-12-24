@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: justify;
+}
+
+header {
+    background: lightseagreen;
+}
+
+header h1 {
+    color: white;
+    font: 4em 'Playball';
+    text-transform: uppercase;
+    padding: 10px 0 40px 10px;
+    margin-bottom: 50px;
+}
+
+main {
+    display: block;
+    border-left: 5px solid lightseagreen;
+    border-right: 5px solid lightseagreen;
+    margin: 0 5%;
+    padding: 0 5%;
+}
+
+.siglo {
+    background: rgba(32, 178, 171, 0.214);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.siglo h2 {
+    background: lightseagreen;
+    color: white;
+    font: 2.5em 'Playball';
+    padding-left: 10px;
+}
+
+.siglo>article {
+    background: white;
+    margin: auto;
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.siglo h3 {
+    font: 1.8em 'Playball';
+    background: lightseagreen;
+    color: white;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+article {
+    clear: both;
+}
+
+article article {
+    overflow: auto;
+    padding-bottom: 30px;
+    
+    margin: 30px 10%;
+}
+
+article article p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 24px 0 24px 0;
+    font: 1.5em 'Playball';
+    text-align: justify;
+}
+
+aside {
+    float: right;
+    margin: 10px 0 10px 30px;
+    padding: 10px 20px;
+    border-left: 5px solid lightseagreen;
+}
+
+aside p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: none;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+td {
+    border: none;
+}
+
+.enero-tab {
+    text-align: center;
+}
+
+.enero-cap {
+    color: indianred;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.enero-tr {
+    color: indianred;
+    font-weight: bold;
+}
+
+.enero-tr>td,
+.enero-dias>td {
+    border-bottom: 1px solid rgba(205, 92, 92, 0.150);
+    color: indianred;
+}
+
+.feb-tab {}
+
+.feb-tab td {
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid rgba(205, 92, 92, 0.990);
+    border-left: 1px solid rgba(205, 92, 92, 0.990);
+    /* border: 2px solid rgba(205, 92, 92, 0.990); */
+    text-align: right;
+    padding-right: 5px;
+}
