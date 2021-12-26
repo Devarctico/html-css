@@ -1,15 +1,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+div {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 1px solid black;
 }
 
 table {
     border: none;
-    width: 400px;
+    width: 350px;
+    margin: auto;
     margin-bottom: 10px;
 }
 
 td {
     border: none;
+}
+
+caption {
+    margin: 10px 0 10px 0;
 }
 
 .enero-tab {
@@ -20,6 +34,7 @@ td {
     color: indianred;
     font-weight: bold;
     font-style: italic;
+    letter-spacing: 3px;
 }
 
 .enero-tr {
@@ -33,14 +48,46 @@ td {
     color: indianred;
 }
 
-.feb-tab {}
+.feb-cap {
+    text-align: right;
+}
 
+.feb-tab,
+.feb-tab tr,
 .feb-tab td {
-    border-top: none;
-    border-bottom: none;
-    border-right: 1px solid rgba(205, 92, 92, 0.990);
-    border-left: 1px solid rgba(205, 92, 92, 0.990);
-    /* border: 2px solid rgba(205, 92, 92, 0.990); */
+    font-weight: bold;
     text-align: right;
     padding-right: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-collapse: collapse;
+    border-bottom: none;
+    border-top: none;
+}
+
+.feb-dias {
+    font-size: 1.3em;
+}
+
+.marz {
+    border-collapse: collapse;
+}
+
+.marz-cap {
+    font-variant: small-caps;
+    text-align: left;
+    letter-spacing: 6px;
+}
+
+.marz-days td {
+    width: 4vw;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.marz-num-days td {
+    border: 1px solid black;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    font-size: .7em;
 }
