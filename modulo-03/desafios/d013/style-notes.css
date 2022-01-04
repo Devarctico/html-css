@@ -1,0 +1,27 @@
+table {
+    width: 500px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead tr th {
+    background-color: gray;
+    color: white;
+    font-size: 1.3em;
+}
+
+.media-t {
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+.nota {
+    text-align: center;
+}

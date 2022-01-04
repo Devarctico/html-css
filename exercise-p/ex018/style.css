@@ -1,0 +1,99 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: relative;
+    text-align: center;
+}
+
+main section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+main .top-bg {
+    background: url('assets/images/card-pattern.svg');
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 30%;
+}
+
+.top-bg p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    /* display: block; */
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+main .info {
+    margin-top: 15%;
+    padding-bottom: 20%;
+}
+
+.info .name {
+    display: inline;
+}
+
+.info .age {
+    display: inline;
+    font-size: 1.2em;
+    padding-left: 3px;
+}
+
+.info .age,
+.info .city {
+    color: hsl(227, 10%, 46%);
+}
+
+.data {
+    border: 1px solid black;
+    height: 80px;
+    position: relative;
+}
+
+.data .followers {
+    border: 1px solid red;
+    font-size: 1.5em;
+    width: 100px;
+}
+
+.data .followers-num {
+    position: absolute;
+    border: 1px solid blue;
+    top: 50%;
+}
+
+.data .likes {
+    position: absolute;
+    width: 100px;
+    top: 20%;
+    left: 50%;
+}
+
+.data .container {
+    border: 1px solid black;
+    position: relative;
+}
