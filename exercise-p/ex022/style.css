@@ -1,0 +1,35 @@
+@media screen and (max-width: 1920px) {
+    body {
+        background-color: lightseagreen;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        background-color: lightgreen;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: lightcoral;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        text-align: center;
+    }
+}
