@@ -7,6 +7,45 @@
     --color05: #75485E;
 }
 
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 300%;
+    }
+    h2 {
+        margin: 20px 0 0;
+        font-size: 150%;
+    }
+    section {
+        margin: 10px;
+    }
+    article {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 400%;
+    }
+    h2 {
+        margin: 0 10px;
+        font-size: 200%;
+    }
+    main#escritorio {
+        position: absolute;
+        left: 7%;
+    }
+    aside#internet {
+        position: absolute;
+        top: 0;
+        right: 10%;
+        width: 95%;
+    }
+    article {
+        margin: 20px 40px;
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -31,10 +70,6 @@ header h1 {
 }
 
 main {
-    position: absolute;
-    top: 15%;
-    left: 5%;
-    width: 35vw;
     padding-left: 20px;
     padding-right: 20px;
     border-left: 3px solid var(--color00);
@@ -84,7 +119,6 @@ main section p {
 main aside {
     position: absolute;
     left: 130%;
-    bottom: 54.47%;
     padding-left: 20px;
     padding-right: 20px;
     border-right: 3px solid var(--color00);
