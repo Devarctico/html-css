@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #333;
+}
+
+.container {
+    background-color: #555;
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+section {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.box-1 {
+    background-color: lightcoral;
+    position: relative;
+    left: 300px;
+    z-index: -2;
+}
+
+.box-1-2 {
+    background-color: aqua;
+    position: relative;
+    top: -25px;
+    left: 300px;
+    z-index: -1;
+}
+
+.box-2 {
+    background-color: lightgreen;
+    position: relative;
+    top: 50px;
+}
+
+.box-3 {
+    background-color: lightseagreen;
+    position: relative;
+}

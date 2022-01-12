@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4b8a20;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px 30px 10px 30px;
+    background-image: url('img/header.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    font-variant: small-caps;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+header .search {
+    position: absolute;
+    left: 79%;
+    top: 5px;
+}
+
+.search input {
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 5px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.search button {
+    border: 1px solid lightgray;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(252, 77, 77);
+}
+
+.container {
+    width: 800px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 1px;
+    background-color: white;
+}
+
+.container p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container h2 {
+    padding-top: 5%;
+    font-size: 3em;
+}
+
+.container .info-comments {
+    position: relative;
+}
+
+.container .comment {
+    position: absolute;
+    left: 88%;
+    top: 0;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container a:hover {
+    text-decoration: underline;
+    color: #7fbd23;
+}
+
+img {
+    width: 800px;
+    background-position: center;
+}
+
+aside {
+    position: absolute;
+    top: 113px;
+    left: 68%;
+    width: 344px;
+    height: 1257px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+aside article {
+    padding-top: 13%;
+}
+
+aside hr {
+    margin-bottom: 30px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #4b8a20;
+    font-weight: bold;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer ul {
+    columns: 2;
+}
