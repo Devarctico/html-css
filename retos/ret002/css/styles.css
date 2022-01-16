@@ -1,0 +1,132 @@
+/*
+Colores
+  Tarjetas
+    Red: hsl(0, 78%, 62%)
+    Cyan: hsl(180, 62%, 55%)
+    Orange: hsl(34, 97%, 64%)
+    Blue: hsl(212, 86%, 64%)
+  Sombra
+    Dark Blue: hsl(240, 25%, 50%) al 20% de opacidad;
+  Texto
+    Grey: hsl(229, 6%, 66%)
+  Fondo de la tarjeta y del background
+    White: hsl(0, 0%, 93%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Poppins
+  Estilos 200, 400 y 600
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --darkblue: hsla(240, 25%, 50%, 0.205);
+    --grey: hsl(229, 6%, 66%);
+    --white: hsl(0, 0%, 93%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--white);
+}
+
+.header {
+    text-align: center;
+    font-size: .8rem;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .header-title {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.header .header-subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.text--light {
+    color: var(--grey);
+}
+
+.aqua {
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    text-align: center;
+    text-shadow: 0 0px 10px hsla(240, 25%, 50%, 0.705);
+}
+
+.container {
+    position: relative;
+    width: 95%;
+    height: 78vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 380px;
+    padding: 0.5rem 2rem;
+    background-color: var(--white);
+    border-top: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 0px var(--darkblue);
+}
+
+.card h3,
+.card p {
+    margin: 0.5rem 0;
+}
+
+.card-img {
+    margin-left: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline;
+    text-align: right;
+}
+
+.card-top {
+    position: absolute;
+    top: 10%;
+    left: 34.5%;
+    border-color: var(--red);
+}
+
+.card-right {
+    position: absolute;
+    bottom: 37%;
+    right: 15px;
+    border-color: var(--blue);
+    text-align: left;
+}
+
+.card-bottom {
+    position: absolute;
+    top: 60%;
+    left: 34.5%;
+    border-color: var(--cyan);
+}
+
+.card-left {
+    position: absolute;
+    top: 29%;
+    left: 15px;
+    border-color: var(--orange);
+}

@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+ul li:nth-child(1) {
+    color: seagreen;
+}
+
+ul li:nth-child(2) {
+    color: sandybrown;
+}
+
+ul li:nth-child(3) {
+    color: purple;
+}
+
+ul li:nth-child(4) {
+    color: brown;
+}
+
+#link {
+    font-size: 1.8em;
+    color: salmon;
+}
+
+#link:link {
+    color: coral;
+}
+
+#link:visited {
+    color: crimson;
+}
+
+#link:hover {
+    color: dodgerblue;
+}
+
+#link:active {
+    color: blue;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px dashed lightcoral;
+    transition-duration: .5s;
+}
+
+input[type="text"]:focus {
+    border-radius: 10px;
+    border: 4px dashed lightcoral;
+    outline: none;
+}
